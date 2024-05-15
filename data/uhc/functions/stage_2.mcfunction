@@ -12,8 +12,8 @@ tellraw @a {"text":"=====ГРАНИЦА СУЖАЕТСЯ ДО 250x250=====","col
 tellraw @a {"text":"=====ГРАНИЦА СУЖАЕТСЯ ДО 250x250=====","color":"red","bold":true}
 tellraw @a {"text":"=====ГРАНИЦА СУЖАЕТСЯ ДО 250x250=====","color":"red","bold":true}
 team join red @e[tag=red]
-team join red @e[tag=yellow]
-team join red @e[tag=green]
-team join red @e[tag=blue]
-team join red @e[tag=gray]
+team join yellow @e[tag=yellow]
+team join green @e[tag=green]
+team join blue @e[tag=blue]
+team join gray @e[tag=gray]
 schedule function uhc:stage_2_5 600s
